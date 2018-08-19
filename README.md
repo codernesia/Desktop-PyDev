@@ -1,5 +1,4 @@
-## Body Mass Index (BMI) / BMI Calculator 
+## contoh program yang di bangun menggunakan Python3 dan PyQt5
 
-Body Mass Index (BMI) : 
-
-Tinggi badan (cm) Body Mass Index (BMI) atau Indeks Massa Tubuh (IMT) adalah angka yang menjadi penilaian standar untuk menentukan apakah berat badan Anda tergolong normal, kurang, berlebih, atau obesitas.
+Pada Directory ini berisikan contoh-contoh program yang saya bangun menggunakan bahasa pemerograman
+python 3 dan menggunakan PyQt5 sebagai tampilan Interfacenya (GUI) .
