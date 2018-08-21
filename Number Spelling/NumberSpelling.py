@@ -31,7 +31,7 @@ class Ui_MainWindow(object):
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(250, 170, 99, 27))
         self.pushButton.setObjectName("pushButton")
-        self.pushButton.clicked.connect(self.hello)
+        self.pushButton.clicked.connect(self.NumberSpelling)
         
         
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
@@ -55,7 +55,7 @@ class Ui_MainWindow(object):
         self.pushButton.setText(_translate("MainWindow", "Spell Number"))
         self.pushButton_2.setText(_translate("MainWindow", "Clear"))
 
-    def hello(self):
+    def NumberSpelling(self):
         Bilangan = self.lineEdit.text()
         Terbilang = int(float(Bilangan))
         self.lineEdit_2.setText(str(num2words(Terbilang)))
